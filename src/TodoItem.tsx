@@ -18,7 +18,6 @@ const TodoItem = (props: Props) => {
           onChange={(e) => props.updateIsDone(todo.id, e.target.checked)}
           className="mr-1.5 cursor-pointer"
         />
-        {todo.name}
       </div>
       <div>
         <button
@@ -27,6 +26,7 @@ const TodoItem = (props: Props) => {
         >
           削除
         </button>
+      　{todo.name}
       </div>
     </div>
   );
