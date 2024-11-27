@@ -11,7 +11,7 @@
 
 MIT License
 
-Copyright (c) 2024 飛彈野優介
+Copyright (c) 2024 Hidano4
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
