@@ -1,6 +1,7 @@
 # TodoApp
 
-React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
+学内の授業の課題としての、React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
+開発時間：17時間(授業資料の理解・実行時間も含む)
 
 ## 開発履歴
 
@@ -10,7 +11,7 @@ React、TypeScript、Tailwind CSS を使用し、ローカルストレージで�
 
 MIT License
 
-Copyright (c) 2024 Kosen Taro
+Copyright (c) 2024 飛彈野優介
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
