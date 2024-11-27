@@ -41,6 +41,23 @@ const TodoList = (props: Props) => {
         />
       ))}
     </div>
+     <div className="ml-2">優先度 </div>
+            <div className="ml-2 text-orange-400">
+              {num2star(todo.priority)}
+            </div>
+          </div>
+          {todo.deadline && (
+            <div className="ml-4 flex items-center text-sm text-slate-500">
+              <FontAwesomeIcon
+                icon={faClock}
+                flip="horizontal"
+                className="mr-1.5"
+              />
+              <div className={twMerge(todo.isDone && "line-through")}>
+                期限: {dayjs(todo.deadline).format("YYYY年M月D日 H時m分")}
+              </div>
+            </div>
+
   );
 };
 
