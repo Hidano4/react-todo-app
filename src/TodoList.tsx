@@ -1,12 +1,23 @@
 import React from "react";
 import { Todo } from "./types";
 import TodoItem from "./TodoItem"; // ◀◀ 追加
+import dayjs from "dayjs";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFile,
+  faClock,
+  faFaceGrinWide,
+} from "@fortawesome/free-solid-svg-icons";
+import { twMerge } from "tailwind-merge";
+
 
 type Props = {
   todos: Todo[];
   updateIsDone: (id: string, value: boolean) => void;
   remove: (id: string) => void;
 };
+
+const num2star = (n: number): string => "★".repeat(0 + n);
 
 const TodoList = (props: Props) => {
   const todos = props.todos;
