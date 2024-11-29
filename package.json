@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://hidano4.github.io/react-todo-ap/",
-
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
